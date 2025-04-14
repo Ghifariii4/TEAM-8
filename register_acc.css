@@ -1,0 +1,19 @@
+.navbar {
+    top: 0;
+    width: 100%;
+    background: black;
+    z-index: 10;
+}
+
+.navbar .nav-link {
+    color: white !important;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navbar .nav-link:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }

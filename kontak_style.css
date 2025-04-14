@@ -1,0 +1,86 @@
+body {
+    font-family: "Haymer Small Capitals W01 Bold";
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+
+  .form-label {
+    font-weight: bold;
+    color: #e0e0e0;
+  }
+
+  .custom-border {
+    border: 2px solid #3f51b5;
+    border-radius: 20px ;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+  }
+
+  .custom-border::placeholder {
+    color: #999;
+  }
+
+  .btn-custom {
+    background-color: transparent;
+    margin-top: 10px;
+    border: 2px solid #3f51b5;
+    color: white;
+    font-weight: bold;
+  }
+
+  .btn-custom:hover {
+    background-color: #303f9f;
+  }
+
+  a {
+    color: #90caf9;
+  }
+
+  a:hover {
+    color: #bbdefb;
+  }
+
+  .text-muted {
+    color: #aaa !important;
+  }
+
+  textarea.custom-border {
+    resize: vertical;
+  }
+
+  @import url(https://db.onlinewebfonts.com/c/1ca24d2cccceb2b040352e5bb9a04b13?family=Haymer+Small+Capitals+W01+Bold);
+
+@font-face {
+font-family: "Haymer Small Capitals W01 Bold";
+src: url("https://db.onlinewebfonts.com/t/1ca24d2cccceb2b040352e5bb9a04b13.eot");
+src: url("https://db.onlinewebfonts.com/t/1ca24d2cccceb2b040352e5bb9a04b13.eot?#iefix")format("embedded-opentype"),
+url("https://db.onlinewebfonts.com/t/1ca24d2cccceb2b040352e5bb9a04b13.woff2")format("woff2"),
+url("https://db.onlinewebfonts.com/t/1ca24d2cccceb2b040352e5bb9a04b13.woff")format("woff"),
+url("https://db.onlinewebfonts.com/t/1ca24d2cccceb2b040352e5bb9a04b13.ttf")format("truetype"),
+url("https://db.onlinewebfonts.com/t/1ca24d2cccceb2b040352e5bb9a04b13.svg#Haymer Small Capitals W01 Bold")format("svg");
+}
+
+.chat-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .chat-line {
+    width: 40%;
+    height: 3px;
+    background-color: #f0f0f0; 
+    border-radius: 5px;
+  }
+  
+  .chat-title {
+    font-size: 2.8rem;
+    color: #f0f0f0;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0;
+    text-align: left;
+  }
+  
